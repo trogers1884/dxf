@@ -1,0 +1,138 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font: 12px 'Lucinda Sans Unicode', 'Trebuchet MS', Arial, Helvetica;
+	margin: 0px;
+	background-color: rgb(217, 222, 226);
+	background-image: -moz-linear-gradient(center top , rgb(235, 238, 242), rgb(217, 222, 226));
+}
+
+/* paper stack effect */
+
+#login {
+	background-color: rgb(255,255,255);
+	background-image: -moz-linear-gradient(center top , rgb(255,255,255), rgb(238,238,238));
+	height: 240px;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	margin: -275px 0px 0px -230px ;
+	padding: 30px;
+	position: absolute;
+	z-index: 0;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+}
+
+
+/* gradient lines */
+
+h1
+{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0 rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+    margin: 0 0 30px 0;
+    letter-spacing: 4px;
+    font: normal 26px/1 Verdana, Helvetica;
+    position: relative;
+}
+
+h1:after, h1:before
+{
+    background-color: #777;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    width: 120px;   
+}
+
+h1:after
+{ 
+    background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    background-image: -ms-linear-gradient(left, #777, #fff);
+    background-image: -o-linear-gradient(left, #777, #fff);
+    background-image: linear-gradient(left, #777, #fff);      
+    right: 0;
+}
+
+h1:before
+{
+    background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    background-image: -ms-linear-gradient(right, #777, #fff);
+    background-image: -o-linear-gradient(right, #777, #fff);
+    background-image: linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+fieldset {
+	border: 0px none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#inputs input {
+	background: url("http://54.200.143.217/dxf/system/img/login-sprite.png") no-repeat scroll 0% 0% rgb(241, 241, 241);
+	padding: 15px 15px 15px 30px;
+	margin: 0px 0px 10px;
+	width: 353px;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 5px, 5px, 5px 5px;
+	box-shadow: 0px 1px 1px rgb(204, 204, 204) inset, 0px 1px 0px rgb(255, 255, 255);
+}
+
+#username {
+	background-position: 5px -2px !important;
+}
+
+#password {
+	background-position: 5px -52px !important;
+}
+
+#actions {
+	margin: 25px 0px 0px;
+}
+
+#submit {
+	background-color: rgb(255, 185, 75);
+	background-image: -moz-linear-gradient(center top , rgb(253, 219, 111), rgb(255,185, 75));
+	border-radius: 3px 3px 3px 3px;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255, 0.3) inset;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(214,158,49) rgb(227,160,55) rgb(213,152,45);
+	float: left;
+	height: 35px;
+	padding: 0px;
+	width: 120px;
+	cursor: pointer;
+	font: bold 15px Arial,Helvetica;
+	color: rgb(143, 90, 10);
+}
+
+#actions a {
+	color: rgb(49,81,162);
+	float: right;
+	line-height: 35px;
+	margin-left: 10px;
+}
+
+
+
+

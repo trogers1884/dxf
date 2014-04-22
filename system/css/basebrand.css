@@ -1,0 +1,38 @@
+
+#branding {
+	height: 10%;
+	width: 100%;
+}
+
+#brandheader {
+	color: white;
+	background-color: rgb(82,0,99);
+	height: 70%;
+	width: 100%;
+}
+
+#brandfooter {
+	color: white;
+	background-color: rgb(82,0,99);
+	height: 5%;
+	width: 100%;
+}
+#appmenu {
+	height: 30%;
+	width: 100%;
+	background-color: rgb(102, 102, 102);
+}
+.dfloatleft {
+	float: left;
+}
+
+.logo {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.brandtitle {
+	font-weight: bold;
+	font-size: 3.55em;
+	margin-left: .5em;
+}
